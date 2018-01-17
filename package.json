@@ -25,6 +25,9 @@
     "url": "https://github.com/rsms/js-lru/issues"
   },
   "homepage": "https://github.com/rsms/js-lru#readme",
+  "dependencies": {
+    "es6-symbol": "^3.1.1"
+  },
   "devDependencies": {
     "typescript": "^2.0.10"
   }

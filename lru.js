@@ -22,6 +22,7 @@
   if (typeof define == 'function' && define.amd) { define('lru', e); }
 })(this, function(exports) {
 
+const Symbol = require('es6-symbol');
 const NEWER = Symbol('newer');
 const OLDER = Symbol('older');
 
